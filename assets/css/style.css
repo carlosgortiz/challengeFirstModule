@@ -1,13 +1,16 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
 
+/*Configura el padding, la familia de la fuente, así como el color de fondo y el color de texto.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,19 @@ body {
     color: #ffffff;
 }
 
+/*Setea el display como un inline-block y el tamaño de la fuente.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Setea el color para la clase seo y el elemento h1*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Configura el padding para los elementos de la clase header (parte superior derecha de la página), así como el margen, la familia de 
+la fuente, el tamaño de la misma y coloca en la parte derecha del contenedor a los elemntos. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +39,12 @@ body {
     font-size: 20px;
 }
 
+/*Setea el elemento gráfico que organiza una lista. */
 .header div ul {
     list-style-type: none;
 }
 
+/*Setea a los elementos ul y li del div*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
